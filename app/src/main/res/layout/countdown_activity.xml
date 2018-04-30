@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="waterloodevs.triviaapp.CountDownActivity">
+
+    <FrameLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/bottom_panel_height"
+        android:background="@drawable/blue_gradient">
+
+        <LinearLayout
+            android:id="@+id/center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-25dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/logout"
+                style="@style/text.White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Logout"
+                android:textSize="@dimen/title_small" />
+
+            <ImageView
+                android:id="@+id/timer"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@null"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/avd_clock_timer"
+                android:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/next_question_title"
+                style="@style/text.White.Bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/next_question_in"
+                android:textSize="@dimen/title_big" />
+
+            <TextView
+                android:id="@+id/join_telegram_title"
+                style="@style/text.White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:onClick="openTelegramGroup"
+                android:padding="25dp"
+                android:visibility="gone" />
+
+            <waterloodevs.triviaapp.ClockCountDownView
+                android:id="@+id/clock_count_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                app:hours="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/prize_telegram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text.White"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_prize"
+                    android:textSize="@dimen/title_big" />
+
+                <TextView
+                    android:id="@+id/prize"
+                    style="@style/text.White"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_panel_height"
+        android:layout_gravity="bottom"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/wallet_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:paddingRight="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/enter_icon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text.Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_balance" />
+
+            <TextView
+                android:id="@+id/balance"
+                style="@style/text.Blue.Bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="-" />
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</FrameLayout>
+

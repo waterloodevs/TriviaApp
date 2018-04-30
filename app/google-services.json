@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "511535013742",
+    "firebase_url": "https://triviaapp-10.firebaseio.com",
+    "project_id": "triviaapp-10",
+    "storage_bucket": "triviaapp-10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511535013742:android:842c3ef5c1e11540",
+        "android_client_info": {
+          "package_name": "waterloodevs.triviaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511535013742-afd3d71ffl903q55j1k3dun8dnk6t6gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGO-C-EmCuBCdOGCCgO_kf1ZMGMNk04qg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

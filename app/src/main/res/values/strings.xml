@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TriviaApp</string>
+    <string name="next_question_in">Next Question In:</string>
+    <string name="my_balance">My Balance:</string>
+    <string name="total_prize">Total prize:</string>
+    <string name="whats_kin">Envisioned as a general purpose cryptocurrency for use in everyday digital services, Kin will be used for all transactions within the Kin Ecosystem.\n\nLearn more at\n<u>kinecosystem.org</u></string>
+    <string name="question">Question:</string>
+    <string name="wrong_answer">Wrong Answer :(</string>
+    <string name="try_next_time">Try Again Next Time!</string>
+    <string name="correct">Correct!</string>
+    <string name="you_are_a_rock_star">You Are A Rockstar!</string>
+    <string name="keystore">Keystore:</string>
+    <string name="done">Done</string>
+    <string name="enter_a_passphrase">Enter a passphrase</string>
+    <string name="backup_your_account">Backup Your Account:</string>
+    <string name="next">Backup you Account:</string>
+    <string name="public_address">Public Address:</string>
+    <string name="what_s_kin">What\'s Kin?</string>
+    <string name="keep_me_posted">Keep Me Posted!</string>
+    <string name="copy">Copy</string>
+    <string name="counter_delim">:</string>
+    <string name="total_prize_is_distributed_between_all_winners">Total prize is distributed\nbetween all winners</string>
+    <string name="loading">Loading</string>
+</resources>
